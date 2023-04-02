@@ -132,19 +132,6 @@
 .home-link6 {
   text-decoration: none;
 }
-.home-cta-btn {
-  color: var(--dl-color-gray-white);
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-fiveunits);
-  border-radius: 34px;
-  padding-right: var(--dl-space-space-fiveunits);
-  padding-bottom: var(--dl-space-space-unit);
-  background-color: var(--dl-color-primary-100);
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-}
 .home-bot {
   flex: 0 0 auto;
   width: 200px;
@@ -564,11 +551,6 @@
 @media(max-width: 479px) {
   .home-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
-  }
-  .home-cta-btn {
-    font-size: 16px;
-    padding-left: var(--dl-space-space-doubleunit);
-    padding-right: var(--dl-space-space-doubleunit);
   }
   .home-hero-text-container {
     width: 100%;
