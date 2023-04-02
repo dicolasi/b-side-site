@@ -32,11 +32,14 @@
   justify-content: space-between;
 }
 .home-logo {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+}
+.home-image {
+  width: 100px;
+  object-fit: cover;
 }
 .home-links-container {
   display: flex;
@@ -91,7 +94,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-image {
+.home-image1 {
   width: 50px;
   object-fit: cover;
 }
@@ -202,7 +205,7 @@
   color: var(--dl-color-gray-500);
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-image1 {
+.home-image2 {
   width: 50%;
   object-fit: contain;
 }
@@ -339,18 +342,6 @@
 .home-text17 {
   color: var(--dl-color-gray-500);
 }
-.home-cta-btn1 {
-  color: var(--dl-color-gray-white);
-  width: 80%;
-  display: none;
-  align-self: flex-start;
-  text-align: center;
-  padding-top: var(--dl-space-space-doubleunit);
-  border-width: 0px;
-  border-radius: 34px;
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-color: var(--dl-color-primary-100);
-}
 .home-secondary-text {
   color: var(--dl-color-gray-500);
   margin-bottom: var(--dl-space-space-tripleunit);
@@ -435,6 +426,9 @@
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
+.home-link7 {
+  text-decoration: none;
+}
 .home-phone {
   display: flex;
   align-items: flex-start;
@@ -467,7 +461,7 @@
   width: 24px;
   height: 24px;
 }
-.home-image2 {
+.home-image3 {
   width: 50%;
   height: 507px;
   object-fit: cover;
@@ -480,7 +474,7 @@
     width: 80%;
     margin-left: 0px;
   }
-  .home-image1 {
+  .home-image2 {
     width: 80%;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
@@ -498,18 +492,13 @@
   .home-text-container {
     width: 100%;
   }
-  .home-cta-btn1 {
-    width: 280px;
-    display: block;
-    margin-top: var(--dl-space-space-doubleunit);
-  }
   .home-locations-container {
     flex-wrap: wrap;
   }
   .home-location-1 {
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-image2 {
+  .home-image3 {
     align-self: center;
   }
 }
@@ -569,7 +558,7 @@
   .home-content-container {
     width: 100%;
   }
-  .home-image2 {
+  .home-image3 {
     width: 100%;
   }
 }
@@ -585,7 +574,7 @@
   .home-hero-text-container {
     width: 100%;
   }
-  .home-image1 {
+  .home-image2 {
     width: 100%;
   }
   .home-feature-card {
